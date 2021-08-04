@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Press+Start+2P&family=Titan+One&family=Work+Sans:wght@100&display=swap');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 700px;
+}
+
+.head_one {
+  background-color: rgb(255, 248, 248);
+  padding: 10px;
+}
+
+body {
+  color: rgb(95, 82, 102);
+  background-color: rgb(255, 248, 248);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  line-height: normal;
+}
+
+#fab {
+  font-size: 50px;
+  padding: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-rounded {
+  border-radius: 5%;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 150px;
+  max-height: auto;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+h1 {
+  color: rgb(49, 53, 49);
+  background-color: rgb(255, 248, 248);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  line-height: 0em;
+  text-align: center;
+  padding-top: 5px;
+}
+
+h2 {
+  color: rgb(80, 21, 112);
+  font-family: 'Press Start 2P', cursive;
+  font-size:medium;
+  line-height: normal;
+  text-align: center;
+}
+
+.bonsai {
+  color: rgb(34, 46, 45);
+  font-family: monospace;
+  font-size: medium;
+  line-height: normal;
+  text-align: center;
+}
+
+.football {
+  color: rgb(34, 46, 45);
+  font-family: monospace;
+  font-size: small;
+  line-height: normal;
+  text-align: center;
+  font-stretch: expanded;
+}
+
+.to_the_left {
+  text-align: left;
+  padding: 10px;
+}
+
+.to_the_right {
+  text-align: right;
+  padding: 10px;
+}
+
+p {
+  color: rgb(106, 117, 153);
+  font-family: 'Titan One', cursive;
+  font-size:large;
+  line-height: normal;
+  text-align: center;
+  padding: 15px;
+}
+
+
+h3 {
+  color: rgb(80, 21, 112);
+  font-family: 'Press Start 2P', cursive;
+  font-size:medium;
+  line-height: normal;
+  text-align: center;
+}
+
+h4 {
+  color:rgb(95, 82, 102);
+  font-family: 'Hind Madurai', sans-serif;
+  font-size:large;
+  line-height: normal;
+  text-align: center;
+}
+
+a {
+  color: rgb(49, 53, 49);
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(208, 204, 219);
+  transition: .2s;
+}
